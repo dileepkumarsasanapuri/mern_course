@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TASK-5</title>
+</head>
+<body>
+    <h1 style="color: blue;"><center>Registration Form</center></h1>
+    <table border="1" align="center" >
+        <tr>
+            <td width="400"><label for="Fname"></label><b>First Name</b></td>
+            <td width="400"><input type="text"  id="Fname" style="width: 400px;"></td>
+        </tr>
+        <tr>
+            <td><label for="lname"><b>Last Name</b></label></td>
+            <td ><input type="text" id="lname" style="width: 400px;"></td>
+        </tr>
+        <tr>
+            <td><label for="email"><b>Email</b></label></td>
+            <td><input type="email" id="email"  style="width: 400px;"></td>
+        </tr>
+        <tr>
+            <td><label for="pass"><b>Password</b></label></td>
+            <td><input type="password" id="pass" style="width: 400px;"></td>
+        </tr>
+        <tr>
+            <td><label for="re-pass"><b>Re-enter Password</b></label></td>
+            <td><input type="password" id="re-pass"style="width: 400px;"></td>
+        </tr>
+        <tr>
+            <th colspan="1" rowspan="2" scope="rowgroup">Gender</th>
+            <th scope="row"><input type="radio" id="Male" value="Male" name="Gender">Male</th>
+        </tr>
+        <tr>
+            <th scope="row"><input type="radio" id="Female" value="Female" name="Gender">Female</th>
+        </tr>
+        <tr>
+            <td><label for="age"><b>Age</b></label></td>
+            <td><input type="number" id="age" style="width: 400px;"></td>
+        </tr>
+        <tr>
+            <td><label for="phno"><b>Phone number</b></label></td>
+            <td><input type="number" id="phno" style="width: 400px;"></td>
+        </tr>
+        <tr>
+            <td><label for="Add"><b>Address</b></label></td>
+            <th><textarea style="width: 400px;height:100px;"></textarea></th>
+        </tr>
+        <tr>
+            <td><label for="st"><b> State</b></label></td>
+            <td><input type="text" id="st"  style="width: 400px;"></td>
+        </tr>
+        <tr>
+            <td><label for="country"><b>Country</b></label></td>
+            <td><select id="country" name="country">
+                <option value="">Select Country</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+                <option value="AQ">Antarctica</option>
+                <option value="AR">Argentina</option>
+                <option value="AU">Australia</option>
+                <option value="AT">Austria</option>
+                <option value="BD">Bangladesh</option>
+                <option value="BE">Belgium</option>
+                <option value="BT">Bhutan</option>
+                <option value="BR">Brazil</option>
+                <option value="IN">India</option>
+                <option value="DU">Dubai</option>
+                <option value="CH">China</option>
+                <option value="US">USA</option>
+                <option value="NZ">New Zealand</option>
+                <option value="SA">South Africa</option>
+                <option value="WI">West Indies</option>
+                <option value="ZW">Zimbabwe</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="lang">Languages known</label></td>
+            <td><input type="checkbox">English <input type="checkbox">Hindi <input type="checkbox">Kannada <input type="checkbox">Telugu</td>
+        </tr>
+        <tr>
+            <th colspan="2" align="left"><input type="checkbox">Hereby I declare all the given details are true</th>
+         </tr>
+        <tr>
+            <td colspan="2" align="right"><p>Log in to <a href="https://ethnus.com">Ethnus </a>website</p></td>
+        </tr>
+    </table>
+    <button style="display: block;margin: auto; align: center; margin-top: 5px;">Register</button>
+</body>
+</html>

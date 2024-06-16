@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK-4</title>
+    <style>
+        .container{
+            position: relative;
+            top: 200px;
+            left: 35%;
+            border: 2px solid black;
+            width: 600px;
+            height: 450px;
+        }
+        .sidecolorbar div{
+            position: relative;
+            margin-left: 12px;
+            padding: 10px;
+        }
+        .sidecolorbar div{
+        padding: 10px;
+        border-radius: 0px 4px 4px 0px;
+        left: -12px;
+        transition:0.5s;
+        opacity: 0.8;
+        }
+        .sidecolorbar div:hover{
+            opacity: 1.5;
+            width: 60px;
+            left: -12px;
+        }
+        .one{
+            cursor: pointer;
+            background-color:green ;
+            top: 22px;
+            width: 32px;
+            height: 35px;
+        }
+        .two{
+            cursor: pointer;
+            background-color: blue;
+            top: 30px;
+            width: 32px;
+            height: 35px;
+        }
+        .three{
+            cursor: pointer;
+            background-color: orangered;
+            top: 38px;
+            width: 32px;
+            height: 35px;
+        }
+        .four{
+            cursor: pointer;
+            background-color:rgb(32, 28, 28) ;
+            top: 46px;
+            width: 32px;
+            height: 35px;
+        }
+        .matter{
+            position: relative;
+            top: -220px;
+            left: 90px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="sidecolorbar">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+    </div>
+    <div class="matter">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them</p>
+    </div>
+</div>
+
+</body>
+</html>
